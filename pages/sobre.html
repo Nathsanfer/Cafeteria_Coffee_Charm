@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../css/sobre.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header> <!--Cabeçalho-->
+        <div class="container-logo"> 
+            <a href="index.html">
+                <h1>Coffee Charm</h1>
+            </a>
+        </div>
+        <div class="menu"> 
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pages/sobre.html">Cardápio</a></li>
+                <li><a href="pages/contato.html">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="about-section">
+            <h2 class="section-title">Nossa História</h2>
+            <p class="about-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta dolorum exercitationem deserunt aspernatur pariatur omnis culpa doloribus odio recusandae laboriosam est non dolores doloremque impedit, saepe suscipit tempore officiis nulla.</p>
+        </section>
+
+        <section class="about-section">
+            <h2 class="section-title">Nossa Missão, Visão e Valores</h2>
+            <p class="section-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum soluta dolorum, doloremque hic adipisci, quas temporibus aut dolores nobis quibusdam quia a aliquam reprehenderit atque facere, sit accusantium? Atque, exercitationem.</p>
+        </section>
+
+        <section class="about-section">
+            <h2 class="section-title">Criadores do Site</h2>
+            <p class="section-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus omnis officia sunt nisi expedita non molestias. Harum maiores facere iusto, mollitia, cum temporibus dolorum voluptatibus natus eum perspiciatis, dolores corrupti!</p>
+        </section>
+
+        <section class="about-section">
+            <h2 class="section-title">Entre em Contato</h2>
+            <form action="/submit" method="post" enctype="multipart/form-data" autocomplete="on" novalidate accept-charset="UTF-8" target="_blank">
+                <fieldset>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="name" placeholder="Insira o seu nome completo" required max="100">
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" rows="5" placeholder="Faça seu comentário ou pergunta"></textarea>
+                </fieldset>
+        </section>
+    </main>
+
+</body>
+</html>

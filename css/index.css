@@ -36,8 +36,8 @@
 /*---------------------*/
 
 header {
-    width: 100%; /Largura/
-    display: flex; /Deixa os elementos na mesma linha/
+    width: 100%; /*Largura*/
+    display: flex; /*Deixa os elementos na mesma linha*/
     justify-content: space-around;
     align-items: center;
     padding: 30px 0;
