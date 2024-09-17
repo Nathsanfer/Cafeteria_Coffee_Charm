@@ -53,6 +53,7 @@ header {
 .container-logo a {
     text-decoration: none;
     color: var(--marrom-5);
+    font-size: 15px;
 }
 
 .menu li {
@@ -71,4 +72,154 @@ header {
     background-color: var(--marrom-2); 
     border-radius: 8px;
     transition: 0.10s;
+<<<<<<< HEAD
+=======
+}
+
+/*--------------------*/
+/*       Rodapé       */
+/*--------------------*/
+
+
+footer {
+    width: 100%;
+    color: var(--marrom-5);
+    bottom: 0px;
+    padding: 0;
+    position: absolute;
+    left: 0px;
+    font-size: 15px;
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+#conteudo-footer {
+    background-color: var(--marrom-1);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1rem 3.5rem;
+}
+
+#footer-contatos h1 {
+    margin-bottom: 0.75rem;
+}
+
+#footer-redes-sociais {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+} 
+
+#footer-redes-sociais .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--branco);
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+#footer-redes-sociais .footer-link i {
+    font-size: 1.25rem;    
+}
+
+#footer-redes-sociais .footer-link:hover {
+    opacity: 0.8;
+}
+
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#facebook {
+    background-color: var(--preto);
+}
+
+#whatsapp {
+    background-color: #25d366;
+}
+
+.footer-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+
+.footer-lista .footer-link {
+    color: var(--branco);
+    transition: all 0.4s;
+    font-size: 13px;
+}
+
+.footer-lista .footer-link:hover {
+    color: var(--marrom-3);
+}
+
+#footer-assinatura {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#footer-assinatura p {
+    color: var(--branco);
+}
+
+#input-grupo {
+    display: flex;
+    align-items: center;
+    background-color: var(--marrom-3);
+    border-radius: 4px;
+}
+
+#input-grupo input {
+    all: unset;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+#input-grupo button {
+    background-color: var(--marrom-2);
+    border: none;
+    color: var(--branco);
+    padding: 0px 1.25rem;
+    font-size: 1.125rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+#input-grupo button:hover {
+    opacity: 0.8;
+}
+
+#footer-copyright {
+    display: flex;
+    justify-content: center;
+    background-color: var(--marrom-3);
+    font-size: 0.9rem;
+    padding: 1rem;
+    font-weight: 100;
+    color: var(--branco);
+}
+
+@media screen and (max-width: 768px) {
+    #footer_content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    #footer_content {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+    }
+>>>>>>> c48edd96cff9d76e10aacdef1dee17a75f13dcc6
 }

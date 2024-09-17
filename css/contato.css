@@ -61,11 +61,7 @@ header {
     transition: 0.10s;
 }
 
-/*---------------------*/
-/*   Fim do Cabeçalho  */
-/*---------------------*/
-
-.section-title {
+.section-title { /* Estilização dos títulos */
     margin: 20px;
     color: var(--marrom-1);
 }
