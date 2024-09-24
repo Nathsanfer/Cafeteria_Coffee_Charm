@@ -73,28 +73,3 @@ header {
     border-radius: 8px;
     transition: 0.10s;
 }
-
-/*---------------------*/
-/*        Main         */
-/*---------------------*/
-.about-section iframe {
-
-}
-
-.section-title { /* Estilização dos títulos */
-    color: var(--marrom-1);
-    font-family: var(--primeira-font);
-}
-
-.section-text {
-    margin-left: 30px;
-    padding: 0;
-    color: var(--marrom-5);
-    font-family: var(--segunda-font);
-}
-
-
-.section-img {
-    width: 300px;
-    border-radius: 100%;
-}
