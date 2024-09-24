@@ -41,7 +41,6 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 30px 0;
-    position: fixed;
     background-color: var(--marrom-1);
 }
 
@@ -77,12 +76,13 @@ header {
 /*--------------------*/
 /*      Conteúdo      */
 /*--------------------*/
-.imagem{
-    margin-top: 50px;
+
+.conteudo-principal {
+    margin-top: 4rem;
 }
-.descricao{
-    color: #47392E;
-    font-size: 16px;
+
+.descricao {
+    text-align: center;
 }
 
 /*--------------------*/
