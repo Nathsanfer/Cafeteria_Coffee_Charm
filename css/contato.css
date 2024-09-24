@@ -20,12 +20,20 @@
     --segunda-font: 'League Spartan', sans-serif;
 }
 
+/*-----------------------*/
+/*   Seletor Universal   */
+/*-----------------------*/
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: var(--segunda-font);
 } 
+
+/*---------------------*/
+/*      Cabeçalho      */
+/*---------------------*/
 
 header {
     width: 100%; /*Largura*/
@@ -74,7 +82,6 @@ header {
 }
 
 .section-title { /* Estilização dos títulos */
-    margin: 20px;
     color: var(--marrom-1);
     font-family: var(--primeira-font);
 }
