@@ -31,6 +31,10 @@
     font-family: var(--segunda-font);
 } 
 
+body {
+    background-image: url(../image/index/fundo-coffee.webp);
+}
+
 /*---------------------*/
 /*      Cabeçalho      */
 /*---------------------*/
@@ -79,10 +83,27 @@ header {
 
 .conteudo-principal {
     margin-top: 4rem;
+    display: flex;
 }
 
 .descricao {
-    text-align: center;
+    align-items: center;
+}
+
+.descricao h1 {
+    font-size: 4rem;
+    font-family: var(--segunda-font);
+    color: var(--marrom-2);
+}
+
+.descricao h2 {
+    font-size: 2rem;
+    color: var(--marrom-2);
+    margin: 20px;
+}
+
+.descricao p {
+    font-size: 1.4rem;
 }
 
 /*--------------------*/
