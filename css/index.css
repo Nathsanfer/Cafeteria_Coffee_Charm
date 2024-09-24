@@ -72,8 +72,6 @@ header {
     background-color: var(--marrom-2); 
     border-radius: 8px;
     transition: 0.10s;
-<<<<<<< HEAD
-=======
 }
 
 /*--------------------*/
@@ -221,5 +219,4 @@ footer {
         grid-template-columns: repeat(1, 1fr);
         padding: 3rem 2rem;
     }
->>>>>>> c48edd96cff9d76e10aacdef1dee17a75f13dcc6
 }
