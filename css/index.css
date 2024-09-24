@@ -14,7 +14,7 @@
     --marrom-3: #8d7a62;
     --marrom-4: #c4b69c;
     --marrom-5: #d6cab2;
-    --branco: #ffffff;
+    --branco: #a1a1a1;
     --preto: #000000;
     --primeira-font: 'Lato', sans-serif;
     --segunda-font: 'League Spartan', sans-serif;
@@ -72,6 +72,17 @@ header {
     background-color: var(--marrom-2); 
     border-radius: 8px;
     transition: 0.10s;
+}
+
+/*--------------------*/
+/*      Conteúdo      */
+/*--------------------*/
+.imagem{
+    margin-top: 50px;
+}
+.descricao{
+    color: #47392E;
+    font-size: 16px;
 }
 
 /*--------------------*/
