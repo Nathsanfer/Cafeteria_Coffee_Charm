@@ -20,9 +20,12 @@
     --segunda-font: 'League Spartan', sans-serif;
 }
 
-/*---------------------*/
-/*      Cabeçalho      */
-/*---------------------*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--segunda-font);
+} 
 
 header {
     width: 100%; /*Largura*/
@@ -30,6 +33,7 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 30px 0;
+    position: fixed;
     background-color: var(--marrom-1);
 }
 
@@ -41,6 +45,7 @@ header {
 .container-logo a {
     text-decoration: none;
     color: var(--marrom-5);
+    font-size: 15px;
 }
 
 .menu li {
@@ -61,16 +66,26 @@ header {
     transition: 0.10s;
 }
 
+/*---------------------*/
+/*        Main         */
+/*---------------------*/
+.about-section iframe {
+
+}
+
 .section-title { /* Estilização dos títulos */
     margin: 20px;
     color: var(--marrom-1);
+    font-family: var(--primeira-font);
 }
 
 .section-text {
     margin-left: 30px;
     padding: 0;
     color: var(--marrom-5);
+    font-family: var(--segunda-font);
 }
+
 
 .section-img {
     width: 300px;
