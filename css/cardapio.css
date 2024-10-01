@@ -77,8 +77,19 @@ header {
 /*      Conteúdo      */
 /*--------------------*/
 
+main {
+    display: flex;
+    justify-content: center;
+}
 
+.cardapio-categoria {
+    background-color: var(--marrom-3);
+    width: 85%;
+}
 
+.categoria {
+    background-color: var(--marrom-2);
+}
 /*--------------------*/
 /*       Rodapé       */
 /*--------------------*/
