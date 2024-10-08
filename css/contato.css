@@ -79,57 +79,44 @@ header {
 /*        Main         */
 /*---------------------*/
 
-.main-content {
-    text-align: center;
-    margin: 20px 0;
+main {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
 }
 
-.about-map iframe {
-    width: 800px;
-    height: 450px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+.container-main {
+    background-color: var(--marrom-5);
+    width: 95%;
+    padding: 2rem;
 }
 
-.section-title {
-    /* Estilização dos títulos */
-    color: var(--marrom-1);
-    font-family: var(--primeira-font);
-    font-size: 24px;
-    margin: 10px;
+.about-map {
+    background-color: var(--marrom-4);
+    width: 90%;
+    height: 2rem;
 }
 
-.section-text {
-        /* Estilização dos parágrafos */
-    margin: 20px;
-    padding: 20px;
-    color: var(--marrom-5);
-    font-family: var(--segunda-font);
-    font-size: 18px;
+.about-history {
+    background-color: var(--marrom-4);
+    width: 90%;
+    height: 2rem;
 }
 
+.about-mission {
+    background-color: var(--marrom-4);
+    width: 90%;
+}
 
-.section-img {
-    width: 300px;
-    border-radius: 100%;
-    display: inline-block;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+.about-creators {
+    background-color: var(--marrom-4);
+    width: 90%;
 }
 
 .about-forms {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 40px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: var(--marrom-4);
+    width: 90%;
 }
-
-.about-forms label {
-    display: block;
-    font-size: large;
-    font-weight: 500;
-    padding: 5px;
-}
-
 
 /*--------------------*/
 /*       Rodapé       */
