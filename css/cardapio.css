@@ -74,7 +74,7 @@ header {
 }
 
 /*--------------------*/
-/*      Conteúdo      */
+/*      Produtos      */
 /*--------------------*/
 
 main {
@@ -82,14 +82,84 @@ main {
     justify-content: center;
 }
 
-.cardapio-categoria {
-    background-color: var(--marrom-3);
-    width: 85%;
+.produtos {
+    background-color: var(--marrom-5);
+    width: 95%;
+    height: 70rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.categoria {
-    background-color: var(--marrom-2);
+.produtos_bebidas {
+    background-color: var(--marrom-4);
+    width: 94%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.card1, .card2, .card3, .card4, .card5  {
+    width: 17%;
+    height: 90%;
+    background-color: var(--marrom-5);
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.imagem_card img{
+    width: 100%;
+    height: 50%;
+    border-radius: 10px 10px 0 0;
+ }
+
+ .informacoes_card {
+    width: 93%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 12px;
+    gap: 0.6rem;
+    color: var(--marrom-1);
+ }
+
+ .informacoes_card h1 {
+    font-size: 20px;
+    padding: 7px 0;
+ }
+
+ .informacoes_card p {
+    font-size: 13px;
+ }
+
+ .valor_botao {
+    display: flex;
+    flex-direction: column;
+ }
+
+.valor_botao p {
+    padding: 12px 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.valor_botao button {
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    background-color: var(--marrom-4);
+    padding: 9px;
+}
+
+.produtos_lanches {
+    background-color: #ff2992;
+    width: 94%;
+    height: 45%;
+    margin: 3rem 0rem;
+}
+
 /*--------------------*/
 /*       Rodapé       */
 /*--------------------*/
@@ -99,7 +169,6 @@ footer {
     color: var(--marrom-5);
     bottom: 0px;
     padding: 0;
-    position: absolute;
     left: 0px;
     font-size: 15px;
 }
