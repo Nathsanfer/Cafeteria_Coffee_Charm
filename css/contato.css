@@ -89,33 +89,65 @@ main {
     background-color: var(--marrom-5);
     width: 95%;
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: var(--marrom-1);
+}
+
+.container-main .section-title {
+    text-align: center;
+    padding: 1rem;
+}
+
+.container-main .section-text {
+    padding: 1rem;
 }
 
 .about-map {
     background-color: var(--marrom-4);
-    width: 90%;
-    height: 2rem;
+    height: 35%;
+    padding: 1rem;
+}
+
+.about-map iframe {
+    width: 100%;
+    height: 25rem;
+    padding: 1rem;
+    display: flex;
 }
 
 .about-history {
     background-color: var(--marrom-4);
-    width: 90%;
-    height: 2rem;
+    padding: 1rem; 
 }
 
 .about-mission {
     background-color: var(--marrom-4);
-    width: 90%;
+    padding: 1rem;
 }
 
 .about-creators {
     background-color: var(--marrom-4);
-    width: 90%;
+    padding: 1rem;
+}
+
+.about-creators img {
+    width: 25%;
+    border-radius: 10%;
 }
 
 .about-forms {
     background-color: var(--marrom-4);
-    width: 90%;
+    padding: 1rem;
+}
+
+.about-forms fieldset {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--marrom-5);
 }
 
 /*--------------------*/
