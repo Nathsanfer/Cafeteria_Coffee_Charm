@@ -25,84 +25,37 @@
         </div>
     </header>
 
-    <main>
-        <div class="container-main">
-            <section class="about-map">
-                <h2 class="section-title">Endereço</h2>
-                <p class="section-text">R. Kamekichi Ohnuma, s/n - Vila Faustina II, Valinhos - SP, 13272-364</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.6450639542004!2d-47.011754890131954!3d-22.963295279128708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8cdc5eb58af07%3A0x45ee61dc16481565!2sR.%20Kamekichi%20Ohnuma%2C%20Valinhos%20-%20SP%2C%2013274-465!5e0!3m2!1spt-BR!2sbr!4v1726533852048!5m2!1spt-BR!2sbr"
-                    frameborder="0" style="border:0" allowfullscreen></iframe>
+    <main class="historia">
+        <section class="about-history">
+            <h2 class="section-title">Nossa História</h2>
+            <p class="section-text">A Coffee Charm nasceu do sonho de Mariana e Lucas, dois apaixonados por café que
+                queriam criar um lugar especial no coração da cidade. Desde 2020, nossa missão é transformar cada xícara
+                em uma experiência única, misturando a qualidade dos melhores grãos com um ambiente acolhedor e
+                encantador.
+                Em nossa cafeteria, cada detalhe é pensado para oferecer mais do que uma pausa para o café: é um convite
+                para saborear momentos e criar memórias. Um espaço que une o charme do moderno ao vintage, a Coffee
+                Charm é o lugar perfeito para quem busca um café excepcional e um atendimento caloroso.
+            </p>
+        </section>
+    </main>
+
+    <main class="form">
+            <section class="container_form">
+                <div class="entre_contato">
+                    <h1>Entre em contato!</h1>
+                    <form>
+                        <div class="inputs">
+                            <input type="text" id="nome" name="name" placeholder="Insira o seu nome completo" required max="100">
+                            <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                            <textarea name="mensagem" id="mensagem" rows="5" placeholder="Faça seu comentário ou pergunta"></textarea>
+                            <button id="button">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="image_form">
+                    <img src="../image/contato/cafe_contato.webp" alt="">
+                </div>
             </section>
-    
-            <section class="about-history">
-                <h2 class="section-title">Nossa História</h2>
-                <p class="section-text">A Coffee Charm nasceu do sonho de Mariana e Lucas, dois apaixonados por café que
-                    queriam criar um lugar especial no coração da cidade. Desde 2020, nossa missão é transformar cada xícara
-                    em uma experiência única, misturando a qualidade dos melhores grãos com um ambiente acolhedor e
-                    encantador.
-                    Em nossa cafeteria, cada detalhe é pensado para oferecer mais do que uma pausa para o café: é um convite
-                    para saborear momentos e criar memórias. Um espaço que une o charme do moderno ao vintage, a Coffee
-                    Charm é o lugar perfeito para quem busca um café excepcional e um atendimento caloroso.
-                </p>
-            </section>
-    
-            <section class="about-mission">
-                <h2 class="section-title">Nossa Missão, Visão e Valores</h2>
-                <p class="section-text">
-                    <strong>Missão:</strong> <br>
-                    Oferecer aos nossos clientes uma experiência única de café, proporcionando sabores autênticos e momentos
-                    acolhedores em um ambiente encantador. Nosso objetivo é promover conexões através do prazer de degustar
-                    cafés especiais e produtos artesanais. <br>
-    
-                    <br>
-    
-                    <strong>Visão:</strong> <br>
-                    Ser reconhecida como a cafeteria de referência em qualidade, hospitalidade e inovação, tornando-se um
-                    ponto de encontro favorito para os apreciadores de café e para quem busca momentos de relaxamento e boas
-                    conversas. <br>
-                    <br>
-                    <strong>Valores:</strong> <br>
-                    • Excelência: Compromisso com a qualidade de nossos produtos e serviços. <br>
-                    • Hospitalidade: Tratar cada cliente com cuidado e atenção, proporcionando uma experiência calorosa. <br>
-                    • Sustentabilidade: Promover práticas que respeitem o meio ambiente e apoiem produtores locais. <br>
-                    • Inovação: Buscar constantemente novas formas de surpreender nossos clientes com sabores e experiências.
-                </p>
-            </section>
-    
-            <section class="about-creators">
-                <h2 class="section-title">Criadores do Site</h2>
-                <img  src="../image/contato/fernanda.jfif" alt="Foto da Fernanda">
-                <img  src="../image/contato/nat.jpeg" alt="Foto da Nathalia">
-                <p class="section-text">Fernanda e Nathalia são as mentes brilhantes por trás do site da Cafeteria Coffee
-                    Charm, dedicado a compartilhar a paixão pelo café e proporcionar uma experiência única em uma cafeteria
-                    acolhedora. Estudantes do 2º semestre de Desenvolvimento de Sistemas no SENAI de Valinhos, elas uniram o
-                    conhecimento adquirido em sala de aula com sua criatividade para desenvolver um site que reflete a
-                    essência do Coffee Charm. <br>
-                    Este projeto, realizado durante a aula de Linguagem de Marcação com os professores Eduardo Correia e
-                    Marcelo Carboni, foi mais do que um simples exercício acadêmico; foi uma oportunidade de aplicar na
-                    prática suas habilidades em programação, design responsivo e usabilidade, visando garantir que os
-                    clientes da cafeteria tenham uma experiência online tão agradável quanto a física.
-                </p>
-            </section>
-    
-            <section class="about-forms">
-                <h2 class="section-title">Entre em Contato</h2>
-                <form action="/submit" method="post" enctype="multipart/form-data" autocomplete="on" novalidate
-                    accept-charset="UTF-8" target="_blank">
-                    <fieldset>
-                        <label for="nome">Nome:</label>
-                        <input type="text" id="nome" name="name" placeholder="Insira o seu nome completo" required
-                            max="100">
-    
-                        <label for="email">E-mail:</label>
-                        <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
-    
-                        <label for="mensagem">Mensagem:</label>
-                        <textarea name="mensagem" id="mensagem" rows="5"
-                            placeholder="Faça seu comentário ou pergunta"></textarea>
-                    </fieldset>
-            </section>
-        </div>
     </main>
 
     <footer>

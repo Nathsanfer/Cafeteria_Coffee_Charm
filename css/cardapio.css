@@ -93,7 +93,7 @@ main {
 .produtos {
     background-color: var(--marrom-5);
     width: 95%;
-    height: 80rem;
+    height: 95rem;
     display: flex;
     flex-direction: column;
     align-items: center;
