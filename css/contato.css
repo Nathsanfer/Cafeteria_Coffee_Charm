@@ -79,6 +79,78 @@ header {
 /*        Main         */
 /*---------------------*/
 
+     /* MAPA */
+
+.mapa {
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-map {
+    width: 70%;
+    height: 20rem;
+    background-color: var(--marrom-5);
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.mapa-frame {
+    width: 50%;
+    height: 100%;
+}
+
+.mapa-frame iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+.info-button {
+    width: 50%;
+    height: 100%;
+}
+
+.info-button h2 {
+    text-align: center;
+    padding: 3rem 0 2rem 0;
+}
+
+.info-button p {
+    text-align: center;
+    padding: 0 0 5rem 0;
+}
+
+.button-map {
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.button-map button {
+    padding: 2rem 2rem;
+    display: flex;
+    align-items: center;
+    border-radius: 0.8rem;
+    background-color: var(--marrom-4);
+    border: none;
+}
+
+.button-map a {
+    text-decoration: none;
+    color: var(--preto);
+}
+
+.button-map button:hover {
+    border: none;
+    background-color: var(--marrom-3);
+}
+
+     /* NOSSA HISTÓRIA */
 .historia {
     display: flex;
     justify-content: center;
@@ -98,12 +170,20 @@ header {
     font-size: 17px;
 }
 
+
+     /* MISSÃO, VALORES E VISÃO */
+
 .informacoes {
     width: 100%;
     height: 40rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    gap: 1.5rem;
+}
+
+.informacoes h2 {
+    text-align: center;
 }
 
 .cards {
@@ -114,6 +194,7 @@ header {
     gap: 2rem;
 
 }
+
 
 .card1, .card2, .card3 {
     width: 17%;
@@ -169,6 +250,12 @@ header {
     width: 40%;
     height: 70%;
 }
+
+     /* CRIADORES */
+
+
+
+     /* ENTRE EM CONTATO */
 
 .form {
     display: flex;
@@ -231,6 +318,7 @@ header {
     height: 100%;
     border-radius: 0 10px 10px 0;
 }
+
 /*--------------------*/
 /*       Rodapé       */
 /*--------------------*/
