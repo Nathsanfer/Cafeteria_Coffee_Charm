@@ -93,6 +93,7 @@ header {
     width: 70%;
     height: 20rem;
     background-color: var(--marrom-5);
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.40);
     display: flex;
     flex-direction: row;
     border-radius: 10px;
@@ -151,15 +152,17 @@ header {
 }
 
 /* NOSSA HISTÓRIA */
+
 .historia {
     display: flex;
     justify-content: center;
-    padding: 3rem;
+    padding: 1rem;
+    height: 16rem;
 }
 
 .about-history {
     width: 80%;
-    padding: 0 2rem;
+    height: 100%;
 }
 
 .about-history h2 {
@@ -170,12 +173,11 @@ header {
     font-size: 17px;
 }
 
-
 /* MISSÃO, VALORES E VISÃO */
 
 .informacoes {
     width: 100%;
-    height: 40rem;
+    height: 30rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -198,10 +200,10 @@ header {
 .card1,
 .card2,
 .card3 {
-    width: 17%;
-    height: 70%;
+    width: 20%;
+    height: 90%;
     background-color: var(--marrom-5);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.40);
     border-radius: 10px;
 }
 
@@ -227,6 +229,11 @@ header {
     flex-direction: column;
     width: 98%;
     align-items: center;
+}
+
+.descricao_produto p {
+    width: 100%;
+    height: 100%;
 }
 
 .informacoes_card h1 {
@@ -255,13 +262,19 @@ header {
 /* CRIADORES */
 
 .criadores {
-    background-color: #7f37c9;
     width: 100%;
-    height: 60rem;
+    height: 28rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 1.5rem;
+}
+
+.section-title-creators {
+    width: 100%;
+    height: 4%;
+    text-align: center;
 }
 
 .cards-creators {
@@ -269,34 +282,69 @@ header {
     height: 100%;
     display: flex;
     justify-content: center;
-    gap: 2rem;
+}
+
+.image_name {
+    width: 100%;
+    height: 18rem;
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+    align-items: center;
 }
 
 .creator1 {
-    background-color: #25d366;
-    width: 17%;
-    height: 50%;
+    background-color: var(--marrom-4);
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.40);
+    width: 14%;
+    height: 100%;
     border-radius: 10px;
 }
 
 .creator2 {
-    background-color: #ff9807;
-    width: 17%;
-    height: 50%;
+    background-color: var(--marrom-4);
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.40);
+    width: 14%;
+    height: 100%;
     border-radius: 10px;
+}
+
+.img-creator {
+    width: 100%;
+    height: 75%;
 }
 
 .img-creator img {
     width: 100%;
-    height: 45%;
+    height: 100%;
     border-radius: 10px 10px 0 0;
 }
 
-.creator-name h2 {
-    text-align: center;
+.creator-name {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-title-name {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+}
+
+.about-creators {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-creators p {
+    width: 80%;
     font-size: 17px;
 }
 
@@ -305,14 +353,19 @@ header {
 .form {
     display: flex;
     justify-content: center;
-    padding: 3rem;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    height: 28rem;
 }
 
 .container_form {
-    width: 50%;
-    height: 28rem;
+    width: 55%;
+    height: 80%;
     display: flex;
     flex-direction: row;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.40);
+    border-radius: 10px;
 }
 
 .entre_contato {
@@ -322,15 +375,15 @@ header {
     display: flex;
     flex-direction: column;
     padding: 2rem;
-    gap: 4rem;
+    gap: 2rem;
     border-radius: 10px 0 0 10px;
 }
 
 .entre_contato h1 {
-    height: 6%;
+    height: 4%;
     width: 100%;
     color: var(--marrom-1);
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 .inputs {
@@ -338,14 +391,14 @@ header {
     height: 90%;
     flex-direction: column;
     display: flex;
-    gap: 1.2rem;
+    gap: 0.5rem;
 }
 
 #nome,
 #email,
 #mensagem,
 #button {
-    padding: 0.8rem;
+    padding: 0.5rem;
     border: navajowhite;
     border-radius: 0.8rem;
     background-color: var(--marrom-4);
@@ -499,6 +552,14 @@ footer {
     font-weight: 100;
     color: var(--branco);
 }
+
+/* Laptops */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    
+}
+
+
 
 @media screen and (max-width: 768px) {
     #footer_content {
