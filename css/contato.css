@@ -255,12 +255,13 @@ header {
 /* CRIADORES */
 
 .criadores {
-    display: flex;
-    justify-content: center;
-    padding: 3rem;
-    width: 100%;
-    height: 40rem;
     background-color: #7f37c9;
+    width: 100%;
+    height: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
 }
 
 .cards-creators {
@@ -273,20 +274,31 @@ header {
 
 .creator1 {
     background-color: #25d366;
-    display: flex;
-    justify-content: center;
-    
+    width: 17%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+.creator2 {
+    background-color: #ff9807;
+    width: 17%;
+    height: 50%;
+    border-radius: 10px;
 }
 
 .img-creator img {
-    width: 30%;
-    height: auto;
+    width: 100%;
+    height: 45%;
+    border-radius: 10px 10px 0 0;
 }
 
-.cards-creators p {
+.creator-name h2 {
+    text-align: center;
+}
+
+.about-creators p {
     font-size: 17px;
 }
-
 
 /* ENTRE EM CONTATO */
 
